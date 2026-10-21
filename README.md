@@ -2,7 +2,7 @@
 ## By this handbook you can install AnoLinux manually
 ### Stage 1: Booting
 Download an Arch Linux Live ISO image from https://archlinux.org/ and write it on flash drive or on Virtual Machine and boot from iit
-### Stage 2: Partitioning disk
+### Stage 2: Partitioning disk (for uefi)
 ##### If you need to do custom partition - do it yourself
 ##### First, run `lsblk` to see your disk name (e.g., `sda`, `vda`, or `nvme0n1`), and set it to a variable ("$DISK")
 #### Create GPT label and partitions (EFI 512MiB + Root rest)
