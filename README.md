@@ -40,9 +40,6 @@ echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
 locale-gen
 
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
-#### Setting hostname
-echo "anolinux" > /etc/hostname
-echo -e "127.0.0.1\tlocalhost\n::1\tlocalhost\n127.0.1.1\tanolinux.localdomain\tanolinux" > /etc/hosts
 #### Setting users and passwords (change "myuser" to your username)
 passwd
 
